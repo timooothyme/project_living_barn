@@ -1,0 +1,15 @@
+html {
+	scroll-behavior: smooth;
+}
+
+.fixed-header {
+	transition: box-shadow .3s ease-in-out
+}
+
+.fixed-header.scrolled {
+	box-shadow: 0 4px 10px rgba(0, 0, 0, .1)
+}
+
+.scrolling-container::-webkit-scrollbar {
+	display: none !important;
+}
